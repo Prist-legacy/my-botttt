@@ -18,7 +18,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "1572301695"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "2036597190"))
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "PGPASSWORD=meSe1et72h8iyBYiIDrr@containers-us-west-22.railway.app:7668/railway")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "1572301695"))
